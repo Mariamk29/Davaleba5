@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  width: 320px;
+  height: 497px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 16px;
+  border-radius: 10px;
+}
+.img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  height: 288px;
+  background-color: rgba(44, 125, 250, 1);
+  border-radius: 10px;
+}
+.img {
+  width: 160px;
+  height: 160px;
+}
+.header {
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.paragraph {
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  color: grey;
+  text-align: center;
+  font-size: 15px;
+}
+.text {
+  padding-top: 24px;
+}
